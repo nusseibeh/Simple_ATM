@@ -1,0 +1,7 @@
+Simple ATM Implementation
+
+My ATM implementation is done in Python 3, tested on version 3.6.7. No addtional packages are required to run the code. 
+
+The code has two classes defined. One is an ATM class that defines interactions that can be done with the ATM, the second is the Account class that defines attributes related to the an individual customers account.
+
+The script also includes a driver that sets up 3 accounts as well the ATM. To run, you can execute "python atm.py". You should see a starting screen that asks to insert a card. In the place of an actual card reader, you can simply type the card number instead. The next step will ask for the pin number associated with the card, giving you 3 attempts. Next you can select the account number. The current implementation only takes 1 account per card, but this could be expanded. After that a menu with 4 options is available: Check balance, withdraw cash, deposit cash, or exit. The first simply checks the balance. The second will withdraw an amount specified in the next screen. This will fail if that the value is larger than what is available in the account or in the atm. The third option will withdraw an amount specified in the next screen. The final option exits from the account and returns to the main screen. Pressing 'q' or 'e' will exit the program.
